@@ -52,7 +52,7 @@ hi SpellRare           ctermbg=13
 hi Statement           ctermfg=3
 hi StatusLine          ctermfg=19   ctermbg=18   cterm=NONE
 hi StatusLineNC        ctermfg=0    ctermbg=18   cterm=NONE
-hi TabLine             ctermfg=0    ctermbg=18   cterm=NONE
+hi TabLine             ctermfg=15   ctermbg=18   cterm=NONE
 hi TabLineFill         ctermfg=19   ctermbg=18   cterm=NONE
 hi TabLineSel          ctermfg=19   ctermbg=18   cterm=NONE
 hi TermCursor                                    cterm=reverse
