@@ -17,21 +17,6 @@ hi Search              ctermfg=0    ctermbg=11
 
 " Dim line numbers, comments, color columns, the status line, splits and sign
 " columns.
-if &background == "light"
-  hi LineNr            ctermfg=7
-  hi CursorLineNr      ctermfg=8
-  hi Comment           ctermfg=7
-  hi ColorColumn       ctermfg=8    ctermbg=7
-  hi Folded            ctermfg=8    ctermbg=7
-  hi FoldColumn        ctermfg=8    ctermbg=7
-  hi Pmenu             ctermfg=0    ctermbg=7
-  hi PmenuSel          ctermfg=7    ctermbg=0
-  hi SpellCap          ctermfg=8    ctermbg=7
-  hi StatusLine        ctermfg=0    ctermbg=7    cterm=bold
-  hi StatusLineNC      ctermfg=8    ctermbg=7    cterm=NONE
-  hi VertSplit         ctermfg=8    ctermbg=7    cterm=NONE
-  hi SignColumn                     ctermbg=7
-else
   hi ColorColumn       ctermfg=8    ctermbg=18
   hi Comment           ctermfg=7
   hi CursorLine                     ctermbg=18   cterm=NONE
@@ -48,7 +33,7 @@ else
   hi SpellCap          ctermfg=8    ctermbg=18
   hi StatusLine        ctermfg=19   ctermbg=18
   hi StatusLineNC      ctermfg=15   ctermbg=18   cterm=NONE
-  hi TabLine           ctermfg=20   ctermbg=18   cterm=NONE
+  hi TabLine           ctermfg=8    ctermbg=18   cterm=NONE
   hi TabLineFill                    ctermbg=18   cterm=NONE
   hi TabLineSel        ctermfg=19   ctermbg=18   cterm=NONE
   hi VertSplit         ctermfg=8    ctermbg=18   cterm=NONE
