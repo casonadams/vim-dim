@@ -35,7 +35,7 @@ hi StatusLine          ctermfg=19   ctermbg=18   cterm=NONE
 hi StatusLineNC        ctermfg=0   ctermbg=18   cterm=NONE
 hi TabLine             ctermfg=8    ctermbg=18   cterm=NONE
 hi TabLineFill                      ctermbg=18   cterm=NONE
-hi TabLineSel          ctermfg=15   ctermbg=18   cterm=NONE
+hi TabLineSel          ctermfg=19   ctermbg=18   cterm=NONE
 hi VertSplit           ctermfg=8    ctermbg=18   cterm=NONE
 
 hi SignifySignAdd      ctermbg=18   ctermfg=2    cterm=NONE
