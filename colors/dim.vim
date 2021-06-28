@@ -12,7 +12,7 @@ hi Conceal             ctermfg=7    ctermbg=7
 hi Constant            ctermfg=1
 hi CursorColumn                     ctermbg=7
 hi CursorLine                       ctermbg=18   cterm=NONE
-hi CursorLineNr        ctermfg=1    ctermbg=NONE cterm=NONE
+hi CursorLineNr        ctermfg=19   ctermbg=18   cterm=NONE
 hi DiffAdd             ctermfg=0    ctermbg=2
 hi DiffChange          ctermfg=0    ctermbg=3
 hi DiffDelete          ctermfg=0    ctermbg=1
