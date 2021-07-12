@@ -18,7 +18,7 @@ hi DiffChange          ctermfg=0    ctermbg=3
 hi DiffDelete          ctermfg=0    ctermbg=1
 hi DiffText            ctermfg=0    ctermbg=11   cterm=bold
 hi Directory           ctermfg=4
-hi Error               ctermfg=18   ctermbg=9
+hi Error               ctermfg=15   ctermbg=9
 hi ErrorMsg            ctermfg=15   ctermbg=1
 hi FoldColumn          ctermfg=8    ctermbg=17
 hi Folded              ctermfg=8    ctermbg=17
