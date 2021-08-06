@@ -65,14 +65,14 @@ hi SignifySignAdd      ctermfg=2    ctermbg=8    cterm=NONE
 hi SignifySignDelete   ctermfg=1    ctermbg=8    cterm=NONE
 hi SignifySignChange   ctermfg=3    ctermbg=8    cterm=NONE
 
-hi CocErrorSign        ctermfg=NONE ctermbg=NONE cterm=NONE
-hi CocWarningSign      ctermfg=NONE ctermbg=NONE cterm=NONE
-hi CocInfoSign         ctermfg=NONE ctermbg=NONE cterm=NONE
-hi CocHintSign         ctermfg=NONE ctermbg=NONE cterm=NONE
-hi CocHighlightText    ctermfg=NONE ctermbg=8    cterm=bold
-
 hi DiffAdd             ctermfg=0    ctermbg=2    cterm=NONE
 hi DiffDelete          ctermfg=0    ctermbg=1    cterm=NONE
 hi DiffChange          ctermfg=0    ctermbg=3    cterm=NONE
 hi DiffText            ctermfg=0    ctermbg=11    cterm=NONE
+
+hi CocErrorSign        ctermfg=15    ctermbg=NONE cterm=NONE
+hi CocWarningSign      ctermfg=15    ctermbg=NONE cterm=NONE
+hi CocInfoSign         ctermfg=15    ctermbg=NONE cterm=NONE
+hi CocHintSign         ctermfg=15    ctermbg=NONE cterm=NONE
+hi CocHighlightText    ctermfg=15    ctermbg=8    cterm=bold
 
