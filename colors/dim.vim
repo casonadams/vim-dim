@@ -6,13 +6,13 @@ endif
 
 let colors_name = "dim"
 
-hi ColorColumn         ctermfg=8    ctermbg=8
+hi ColorColumn         ctermfg=8    ctermbg=NONE
 hi Comment             ctermfg=7
 hi Conceal             ctermfg=7    ctermbg=7
 hi Constant            ctermfg=1
 hi CursorColumn                     ctermbg=7
-hi CursorLine                       ctermbg=8    cterm=NONE
-hi CursorLineNr        ctermfg=15   ctermbg=8    cterm=NONE
+hi CursorLine          ctermfg=NONE ctermbg=NONE cterm=NONE
+hi CursorLineNr        ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiffAdd             ctermfg=0    ctermbg=2
 hi DiffChange          ctermfg=0    ctermbg=3
 hi DiffDelete          ctermfg=0    ctermbg=1
@@ -20,8 +20,8 @@ hi DiffText            ctermfg=0    ctermbg=11   cterm=bold
 hi Directory           ctermfg=4
 hi Error               ctermfg=15   ctermbg=9
 hi ErrorMsg            ctermfg=15   ctermbg=1
-hi FoldColumn          ctermfg=1    ctermbg=8
-hi Folded              ctermfg=8    ctermbg=8
+hi FoldColumn          ctermfg=8    ctermbg=NONE
+hi Folded              ctermfg=8    ctermbg=NONE
 hi Identifier          ctermfg=6                 cterm=NONE
 hi Ignore              ctermfg=15
 hi IncSearch                                     cterm=reverse
@@ -57,7 +57,7 @@ hi Todo                ctermfg=0    ctermbg=11
 hi Type                ctermfg=2
 hi Underlined          ctermfg=5                 cterm=underline
 hi VertSplit           ctermfg=8    ctermbg=8    cterm=NONE
-hi Visual              ctermbg=8    cterm=NONE
+hi Visual              ctermbg=NONE ctermbg=NONE cterm=reverse
 hi WarningMsg          ctermfg=1
 hi WildMenu            ctermfg=0    ctermbg=11
 
@@ -70,4 +70,9 @@ hi CocWarningSign      ctermfg=NONE ctermbg=NONE cterm=NONE
 hi CocInfoSign         ctermfg=NONE ctermbg=NONE cterm=NONE
 hi CocHintSign         ctermfg=NONE ctermbg=NONE cterm=NONE
 hi CocHighlightText    ctermfg=NONE ctermbg=8    cterm=bold
+
+hi DiffAdd             ctermfg=0    ctermbg=2    cterm=NONE
+hi DiffDelete          ctermfg=0    ctermbg=1    cterm=NONE
+hi DiffChange          ctermfg=0    ctermbg=3    cterm=NONE
+hi DiffText            ctermfg=0    ctermbg=11    cterm=NONE
 
