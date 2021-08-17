@@ -11,7 +11,7 @@ hi Comment             ctermfg=7
 hi Conceal             ctermfg=7    ctermbg=7
 hi Constant            ctermfg=1
 hi CursorColumn                     ctermbg=7
-hi CursorLine          ctermfg=NONE ctermbg=NONE cterm=NONE
+hi CursorLine          ctermfg=NONE ctermbg=NONE cterm=undercurl
 hi CursorLineNr        ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiffAdd             ctermfg=0    ctermbg=2
 hi DiffChange          ctermfg=0    ctermbg=3
