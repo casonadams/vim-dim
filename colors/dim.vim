@@ -8,7 +8,7 @@ let colors_name = "dim"
 
 hi ColorColumn         ctermfg=8    ctermbg=NONE
 hi Comment             ctermfg=7
-hi Conceal             ctermfg=7    ctermbg=7
+hi Conceal             ctermfg=15   ctermbg=9
 hi Constant            ctermfg=1
 hi CursorColumn                     ctermbg=7
 hi CursorLine          ctermfg=NONE ctermbg=NONE cterm=undercurl
