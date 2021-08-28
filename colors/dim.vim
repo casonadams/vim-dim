@@ -7,11 +7,11 @@ endif
 let colors_name = "dim"
 
 hi ColorColumn         ctermfg=8    ctermbg=NONE
-hi Comment             ctermfg=7
+hi Comment             ctermfg=8
 hi Conceal             ctermfg=15   ctermbg=9
 hi Constant            ctermfg=1
 hi CursorColumn                     ctermbg=7
-hi CursorLine          ctermfg=NONE ctermbg=NONE cterm=undercurl
+hi CursorLine          ctermfg=NONE ctermbg=NONE cterm=underline
 hi CursorLineNr        ctermfg=NONE ctermbg=NONE cterm=NONE
 hi DiffAdd             ctermfg=0    ctermbg=2
 hi DiffChange          ctermfg=0    ctermbg=3
@@ -25,12 +25,13 @@ hi Folded              ctermfg=8    ctermbg=NONE
 hi Identifier          ctermfg=6                 cterm=NONE
 hi Ignore              ctermfg=15
 hi IncSearch                                     cterm=reverse
-hi LineNr              ctermfg=8
-hi MatchParen                       ctermbg=14
-hi MatchParen          ctermfg=9    ctermbg=15
+hi Include             ctermfg=6
+hi LineNr              ctermfg=7
+hi MatchParen          ctermfg=NONE ctermbg=8    cterm=NONE
 hi ModeMsg                                       cterm=bold
 hi MoreMsg             ctermfg=2
 hi NonText             ctermfg=8                 cterm=NONE
+hi Number              ctermfg=5
 hi Pmenu               ctermfg=15   ctermbg=8
 hi PmenuSbar                        ctermbg=8
 hi PmenuSel            ctermfg=8    ctermbg=15
@@ -39,31 +40,32 @@ hi PreProc             ctermfg=5
 hi Question            ctermfg=2
 hi Search              ctermfg=0    ctermbg=11
 hi SignColumn                       ctermbg=8
-hi Special             ctermfg=5
+hi Special             ctermfg=4
 hi SpecialKey          ctermfg=8                 cterm=NONE
 hi SpellBad                         ctermbg=9
 hi SpellCap            ctermfg=8    ctermbg=8
 hi SpellLocal                       ctermbg=14
 hi SpellRare                        ctermbg=13
-hi Statement           ctermfg=3
-hi StatusLine          ctermfg=15   ctermbg=8    cterm=NONE
+hi Statement           ctermfg=1
+hi StatusLine          ctermfg=7    ctermbg=NONE    cterm=underline
 hi StatusLineNC        ctermfg=0    ctermbg=8    cterm=NONE
-hi TabLine             ctermfg=7    ctermbg=8    cterm=NONE
-hi TabLineFill         ctermfg=15   ctermbg=8    cterm=NONE
-hi TabLineSel          ctermfg=15   ctermbg=8    cterm=NONE
+hi String              ctermfg=2
+hi TabLine             ctermfg=8    ctermbg=NONE cterm=underline
+hi TabLineFill         ctermfg=8    ctermbg=NONE cterm=underline
+hi TabLineSel          ctermfg=7    ctermbg=NONE cterm=underline
 hi TermCursor                                    cterm=reverse
 hi Title               ctermfg=5
-hi Todo                ctermfg=0    ctermbg=11
-hi Type                ctermfg=2
+hi Todo                ctermfg=15   ctermbg=NONE term=bold
+hi Type                ctermfg=3
 hi Underlined          ctermfg=5                 cterm=underline
-hi VertSplit           ctermfg=8    ctermbg=8    cterm=NONE
+hi VertSplit           ctermfg=8    ctermbg=NONE cterm=NONE
 hi Visual              ctermbg=NONE ctermbg=NONE cterm=reverse
 hi WarningMsg          ctermfg=1
 hi WildMenu            ctermfg=0    ctermbg=11
 
-hi SignifySignAdd      ctermfg=2    ctermbg=8    cterm=NONE
-hi SignifySignDelete   ctermfg=1    ctermbg=8    cterm=NONE
-hi SignifySignChange   ctermfg=3    ctermbg=8    cterm=NONE
+hi SignifySignAdd      ctermfg=2    ctermbg=NONE    cterm=NONE
+hi SignifySignDelete   ctermfg=1    ctermbg=NONE    cterm=NONE
+hi SignifySignChange   ctermfg=3    ctermbg=NONE    cterm=NONE
 
 hi DiffAdd             ctermfg=0    ctermbg=2    cterm=NONE
 hi DiffDelete          ctermfg=0    ctermbg=1    cterm=NONE
@@ -74,5 +76,5 @@ hi CocErrorSign        ctermfg=15    ctermbg=NONE cterm=NONE
 hi CocWarningSign      ctermfg=15    ctermbg=NONE cterm=NONE
 hi CocInfoSign         ctermfg=15    ctermbg=NONE cterm=NONE
 hi CocHintSign         ctermfg=15    ctermbg=NONE cterm=NONE
-hi CocHighlightText    ctermfg=15    ctermbg=8    cterm=bold
+hi CocHighlightText    ctermfg=NONE  ctermbg=8    cterm=NONE
 
