@@ -30,6 +30,7 @@ hi LineNr              ctermfg=7
 hi MatchParen          ctermfg=NONE ctermbg=8    cterm=NONE
 hi ModeMsg                                       cterm=bold
 hi MoreMsg             ctermfg=2
+hi MsgArea             ctermfg=7                 cterm=NONE
 hi NonText             ctermfg=8                 cterm=NONE
 hi Number              ctermfg=5
 hi Pmenu               ctermfg=15   ctermbg=8
