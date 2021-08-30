@@ -26,33 +26,33 @@ hi Identifier          ctermfg=6                 cterm=NONE
 hi Ignore              ctermfg=15
 hi IncSearch                                     cterm=reverse
 hi LineNr              ctermfg=8
-hi MatchParen          ctermfg=NONE ctermbg=8
+hi MatchParen          ctermfg=NONE ctermbg=7
 hi ModeMsg                                       cterm=bold
 hi MoreMsg             ctermfg=2
 hi NonText             ctermfg=8                 cterm=NONE
-hi Pmenu               ctermfg=15   ctermbg=8
-hi PmenuSbar                        ctermbg=8
-hi PmenuSel            ctermfg=8    ctermbg=15
+hi Pmenu               ctermfg=0    ctermbg=7
+hi PmenuSbar                        ctermbg=7
+hi PmenuSel            ctermfg=7    ctermbg=0
 hi PmenuThumb                       ctermbg=0
 hi PreProc             ctermfg=5
 hi Question            ctermfg=2
-hi Search              ctermfg=0    ctermbg=11
-hi SignColumn                       ctermbg=8
+hi Search              ctermfg=0    ctermbg=3
+hi SignColumn                       ctermbg=7
 hi Special             ctermfg=5
 hi SpecialKey          ctermfg=8                 cterm=NONE
 hi SpellBad                         ctermbg=9
-hi SpellCap            ctermfg=8    ctermbg=8
+hi SpellCap            ctermfg=8    ctermbg=7
 hi SpellLocal                       ctermbg=14
 hi SpellRare                        ctermbg=13
 hi Statement           ctermfg=3
-hi StatusLine          ctermfg=15   ctermbg=8    cterm=NONE
-hi StatusLineNC        ctermfg=0    ctermbg=8    cterm=NONE
-hi TabLine             ctermfg=7    ctermbg=8    cterm=NONE
-hi TabLineFill         ctermfg=15   ctermbg=8    cterm=NONE
-hi TabLineSel          ctermfg=15   ctermbg=8    cterm=NONE
+hi StatusLine          ctermfg=0    ctermbg=7    cterm=NONE
+hi StatusLineNC        ctermfg=7    ctermbg=0    cterm=NONE
+hi TabLine             ctermfg=7    ctermbg=0    cterm=NONE
+hi TabLineFill         ctermfg=0    ctermbg=7    cterm=NONE
+hi TabLineSel          ctermfg=0    ctermbg=7    cterm=NONE
 hi TermCursor                                    cterm=reverse
 hi Title               ctermfg=5
-hi Todo                ctermfg=15   ctermbg=NONE cterm=bold
+hi Todo                ctermfg=8    ctermbg=NONE cterm=reverse
 hi Type                ctermfg=2
 hi Underlined          ctermfg=5                 cterm=underline
 hi VertSplit           ctermfg=8    ctermbg=8    cterm=NONE
