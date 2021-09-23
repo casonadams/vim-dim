@@ -122,9 +122,9 @@ call s:hi('ALEInfo', '', '', 'underline')
 call s:hi('ALEStyleError', '', '', 'underline')
 call s:hi('ALEStyleWarning', '', '', 'underline')
 
-call s:hi('ALEErrorLine', 'White', s:dark_gray)
-call s:hi('ALEWarningLine', 'White', s:dark_gray)
-call s:hi('ALEInfoLine', 'White', s:dark_gray)
+call s:hi('ALEErrorLine', '', '')
+call s:hi('ALEWarningLine', '', '')
+call s:hi('ALEInfoLine', '', '')
 
 call s:hi('CocFloating', 'White', s:dark_gray)
 call s:hi('CocErrorFloat', 'White', s:dark_gray)
