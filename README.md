@@ -8,36 +8,57 @@ I use [alacritty](https://github.com/alacritty/alacritty) terminal with this as 
 
 ```yml
 schemes:
-  jetbrains_dark: &dark
+  # https://github.com/ajmwagar/vim-deus/blob/master/terminal/alacritty.yml
+  deus: &dark
+      # Default colors
     primary:
-      background: "#2B2B2B"
-      foreground: "#BBBBBB"
-
-    normal:
-      black: "#252525"
-      red: "#DB5451"
-      green: "#548C26"
-      yellow: "#A89022"
-      blue: "#3A91CF"
-      magenta: "#A575BA"
-      cyan: "#009191"
-      white: "#7A7A7A"
-
-  jetbrains_light: &light
-    primary:
-      background: "#E2E2E2"
-      foreground: "#666666"
-
+      background: '#2c323b'
+      foreground: '#eaeaea'
     # Normal colors
     normal:
-      black: "#EEEEEE"
-      red: "#DB5451"
-      green: "#548C26"
-      yellow: "#A89022"
-      blue: "#3A91CF"
-      magenta: "#A575BA"
-      cyan: "#009191"
-      white: "#4D4D4C"
+      black:   '#242a32'
+      red:     '#d54e53'
+      green:   '#98c379'
+      yellow:  '#e5c07b'
+      blue:    '#6c8fd1'
+      magenta: '#c678dd'
+      cyan:    '#70c0ba'
+      white:   '#eaeaea'
+    # Bright colors
+    bright:
+      black:   '#666666'
+      red:     '#ec3e45'
+      green:   '#90c966'
+      yellow:  '#edbf69'
+      blue:    '#4274d1'
+      magenta: '#c858e9'
+      cyan:    '#2bcec2'
+      white:   '#ffffff'
+  leus: &light
+      # Default colors
+    primary:
+      background: '#e1e5ed'
+      foreground: '#141414'
+    # Normal colors
+    normal:
+      black:   '#ffffff'
+      red:     '#d54e53'
+      green:   '#7bc149'
+      yellow:  '#e5b252'
+      blue:    '#6c8fd1'
+      magenta: '#c166dd'
+      cyan:    '#50bfb7'
+      white:   '#eaeaea'
+    # Bright colors
+    bright:
+      black:   '#666666'
+      red:     '#ec3e45'
+      green:   '#90c966'
+      yellow:  '#edbf69'
+      blue:    '#4274d1'
+      magenta: '#c858e9'
+      cyan:    '#2bcec2'
+      white:   '#000000'
 
-colors: *light
+colors: *dark
 ```
