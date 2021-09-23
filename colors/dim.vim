@@ -82,6 +82,16 @@ call s:hi('DiffDelete', 'Black', 'DarkRed')
 call s:hi('DiffChange', 'Black', 'DarkYellow')
 call s:hi('DiffText', 'Black', 'DarkCyan')
 
+call s:hi('ALEError', '', '', 'underline')
+call s:hi('ALEWarning', '', '', 'underline')
+call s:hi('ALEInfo', '', '', 'underline')
+call s:hi('ALEStyleError', '', '', 'underline')
+call s:hi('ALEStyleWarning', '', '', 'underline')
+
+call s:hi('ALEErrorLine', 'White', 'DarkGray', 'underline')
+call s:hi('ALEWarningLine', 'White', 'DarkGray', 'underline')
+call s:hi('ALEInfoLine', 'White', 'DarkGray', 'underline')
+
 call s:hi('CocFloating', 'White', 'DarkGray')
 call s:hi('CocErrorFloat', 'White', 'DarkGray')
 call s:hi('CocWarningFloat', 'White', 'DarkGray')
