@@ -6,15 +6,14 @@ Using ANSI colors.
 
 I use [alacritty](https://github.com/alacritty/alacritty) terminal with this as the light and dark options
 
-```yml
+<!-- prettier-ignore -->
+~~~yml
 schemes:
   # https://github.com/ajmwagar/vim-deus/blob/master/terminal/alacritty.yml
   deus: &dark
-      # Default colors
     primary:
       background: '#2c323b'
       foreground: '#eaeaea'
-    # Normal colors
     normal:
       black:   '#242a32'
       red:     '#d54e53'
@@ -24,7 +23,6 @@ schemes:
       magenta: '#c678dd'
       cyan:    '#70c0ba'
       white:   '#eaeaea'
-    # Bright colors
     bright:
       black:   '#666666'
       red:     '#ec3e45'
@@ -35,11 +33,9 @@ schemes:
       cyan:    '#2bcec2'
       white:   '#ffffff'
   leus: &light
-      # Default colors
     primary:
       background: '#e1e5ed'
       foreground: '#141414'
-    # Normal colors
     normal:
       black:   '#ffffff'
       red:     '#d54e53'
@@ -49,7 +45,6 @@ schemes:
       magenta: '#c166dd'
       cyan:    '#50bfb7'
       white:   '#eaeaea'
-    # Bright colors
     bright:
       black:   '#666666'
       red:     '#ec3e45'
@@ -61,4 +56,8 @@ schemes:
       white:   '#000000'
 
 colors: *dark
-```
+~~~
+
+| asdflkj | asdflkj |
+| ------- | ------- |
+| test    | this    |
