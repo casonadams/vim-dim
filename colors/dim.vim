@@ -173,7 +173,7 @@ call s:hi('QuickFixLine', s:dark_magenta)
 call s:hi('Search', 'Black', s:dark_yellow)
 call s:hi('SignColumn', 'NONE', 'NONE')
 call s:hi('SpecialKey', s:dark_gray)
-call s:hi('SpellBad', '', 'Red')
+call s:hi('SpellBad', '', s:dark_red)
 call s:hi('SpellCap', s:dark_gray, 'Gray')
 call s:hi('SpellLocal', '', 'Cyan')
 call s:hi('SpellRare', '', s:dark_magenta)
@@ -261,3 +261,9 @@ call s:hi('LspDiagnosticsSignWarning', s:dark_gray, '', '')
 call s:hi('LspDiagnosticsSignInformation', s:dark_gray, '', '')
 call s:hi('LspDiagnosticsSignHint', s:dark_gray, '', '')
 call s:hi('LspCodeLens', s:dark_gray, '', '')
+
+call s:hi('LspReferenceText', '', s:dark_gray)
+call s:hi('LspReferenceRead', '', s:dark_gray)
+call s:hi('LspReferenceWrite', '', s:dark_gray)
+
+
