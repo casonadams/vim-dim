@@ -1,10 +1,15 @@
 hi clear
 
+let colors_name = 'dim'
+
 if exists('syntax_on')
   syntax reset
+  set notermguicolors
 endif
 
-let colors_name = 'dim'
+let g:signify_sign_add = '│'
+let g:signify_sign_change = '│'
+let g:signify_sign_delete = '│'
 
 let s:dark_red = 1
 let s:dark_green = 2
@@ -230,3 +235,29 @@ call s:hi('CocErrorFloat', s:dark_gray, '', '')
 call s:hi('CocWarningFloat', s:dark_gray, '', '')
 call s:hi('CocInfoFloat', s:dark_gray, '', '')
 call s:hi('CocHintFloat', s:dark_gray, '', '')
+
+call s:hi('LspDiagnosticsDefaultError', '', '', 'underline')
+call s:hi('LspDiagnosticsDefaultWarning', '', '', 'underline')
+call s:hi('LspDiagnosticsDefaultInformation', '', '', 'underline')
+call s:hi('LspDiagnosticsDefaultHint', '', '', 'underline')
+
+call s:hi('LspDiagnosticsVirtualTextError', s:dark_gray, '', '')
+call s:hi('LspDiagnosticsVirtualTextWarning', s:dark_gray, '', '')
+call s:hi('LspDiagnosticsVirtualTextInformation', s:dark_gray, '', '')
+call s:hi('LspDiagnosticsVirtualTextHint', s:dark_gray, '', '')
+
+call s:hi('LspDiagnosticsUnderlineError', '', '', 'underline')
+call s:hi('LspDiagnosticsUnderlineWarning', '', '', 'underline')
+call s:hi('LspDiagnosticsUnderlineInformation', '', '', 'underline')
+call s:hi('LspDiagnosticsUnderlineHint', '', '', 'underline')
+
+call s:hi('LspDiagnosticsFloatingError', s:dark_gray, '', '')
+call s:hi('LspDiagnosticsFloatingWarning', s:dark_gray, '', '')
+call s:hi('LspDiagnosticsFloatingInformation', s:dark_gray, '', '')
+call s:hi('LspDiagnosticsFloatingHint', s:dark_gray, '', '')
+
+call s:hi('LspDiagnosticsSignError', s:dark_gray, '', '')
+call s:hi('LspDiagnosticsSignWarning', s:dark_gray, '', '')
+call s:hi('LspDiagnosticsSignInformation', s:dark_gray, '', '')
+call s:hi('LspDiagnosticsSignHint', s:dark_gray, '', '')
+call s:hi('LspCodeLens', s:dark_gray, '', '')
