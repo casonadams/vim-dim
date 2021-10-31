@@ -75,13 +75,13 @@ call s:hi('SpecialKey', s:dark_gray)
 
 call s:hi('Directory', s:dark_gray)
 call s:hi('Title', s:dark_green, 'NONE')
-call s:hi('ErrorMsg', 'White', s:dark_red)
-call s:hi('ModeMsg', 'White', '')
-call s:hi('MsgArea', 'White', '')
+" call s:hi('ErrorMsg', 'White', s:dark_red)
+" call s:hi('ModeMsg', 'White', '')
+" call s:hi('MsgArea', 'White', '')
 " call s:hi('MsgSeperator', 'White', '')
-call s:hi('MoreMsg', 'White', '')
-call s:hi('WarningMsg', s:dark_red)
-call s:hi('Question', s:dark_yellow)
+" call s:hi('MoreMsg', 'White', '')
+" call s:hi('WarningMsg', s:dark_red)
+" call s:hi('Question', s:dark_yellow)
 
 " -- :diff
 call s:hi('DiffAdd', 'Black', s:dark_green)
@@ -100,7 +100,7 @@ call s:hi('SpellRare',  s:dark_gray, 'NONE', 'underline')
 
 " -- group-name
 call s:hi('Comment', s:dark_gray)
-" call s:hi('Identifier')
+call s:hi('Identifier')
 call s:hi('Function', s:light_yellow)
 
 call s:hi('Constant', s:dark_magenta)
@@ -143,8 +143,8 @@ call s:hi('Underlined', 'NONE', 'NONE', 'underline')
 " call s:hi('Italic', '', '', 'italic')
 
 call s:hi('Ignore')
-call s:hi('Error', 'White', s:dark_red)
-call s:hi('Todo', s:light_gray)
+" call s:hi('Error', '', s:dark_red)
+" call s:hi('Todo', s:light_gray)
 
 " -- treesitter
 " call s:hi('TSAnnotation', s:dark_blue)

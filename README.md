@@ -6,7 +6,6 @@ Using ANSI colors.
 
 I use [alacritty](https://github.com/alacritty/alacritty) terminal with this as the light and dark options
 
-<!-- prettier-ignore -->
 ~~~yml
 schemes:
   # https://github.com/ajmwagar/vim-deus/blob/master/terminal/alacritty.yml
